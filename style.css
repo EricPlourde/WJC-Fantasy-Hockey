@@ -1,0 +1,95 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.9;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+.flex-container{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+
+.flex-box{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.heading img{
+  width: 150px;
+  height: auto;
+  margin: 25px 0;
+}
+
+#powerbi{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin: 50px 0;
+  background: #ffffff;
+  padding: 25px;
+  display: flex;
+}
+
+.background-white{
+  background-color: #ffffff;
+}
+
+.main-a .container {
+  background: #ffffff;
+}
+
+.picture{
+  background-image: url('img/Graphic_background.png');
+  background-color: none;
+  background-position: bottom;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 700px;
+}
+
