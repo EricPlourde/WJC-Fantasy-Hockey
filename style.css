@@ -45,7 +45,6 @@ a {
   justify-content: center;
   flex-direction: column;
   position: relative;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 
@@ -60,6 +59,7 @@ a {
   margin: auto;
   border-radius: 10px;
   padding: 20px 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 
@@ -104,7 +104,6 @@ a {
   align-items: center;
   justify-content: center;
   margin-top: 125px;
-  margin-bottom: 25px;
   padding: 30px 0;
 }
   
