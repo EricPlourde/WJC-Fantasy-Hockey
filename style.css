@@ -98,6 +98,11 @@ a {
   height: 700px;
 }
 
+iframe {
+  width: 100%;
+  height: 600px;
+}
+
 .footer-content {
   display: flex;
   flex-direction: column;
